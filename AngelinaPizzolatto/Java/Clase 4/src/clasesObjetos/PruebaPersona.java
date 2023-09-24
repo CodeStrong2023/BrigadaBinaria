@@ -1,4 +1,4 @@
-package Clases_Objetos;
+package clasesObjetos;
 public class PruebaPersona {
     public static void main(String[] args) {
         //el método main te permite ejecutar el programa 
