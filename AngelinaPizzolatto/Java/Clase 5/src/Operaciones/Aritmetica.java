@@ -1,4 +1,4 @@
-package Operaciones; 
+package operaciones; 
 
 public class Aritmetica { //se escriben en PascalCase
     //Atributos de la clase

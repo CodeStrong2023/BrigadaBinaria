@@ -1,4 +1,4 @@
-package Operaciones;  
+package operaciones;  
 
 public class PruebaAritmetica {
     public static void main(String[] args) {
@@ -29,12 +29,40 @@ public class PruebaAritmetica {
         System.out.println("calculo2 b: " + calculo2.b);
         // calculo1 = null; esto ya no se utiliza, se hace de manera automática
         //System.gc(); método garbage collector para limpiar los residuos, es muy pesado
-
+        Persona persona = new Persona("Angelina", "Pizzolatto");
+        System.out.println("persona = " + persona);
+        System.out.println("Persona nombre = " + persona.nombre);
+        System.out.println("Persona apellido = " + persona.apellido);
     }
-    //Creamos otro método 
+    //Creamos otro método (Modularidad)
     public static void miMetodo() {
         int a = 10; //una variable está limitada 
         System.out.println("Este es otro método");
     }
 }
 //Los atributos tienen un alcance superior que una variable local 
+
+//Modularidad (creamos una nueva clase, que no puede ser pública)
+class Persona{
+    //Atributos 
+    String nombre;  
+    String apellido; 
+    
+    Persona(String nombre, String apellido) { //Constructor
+        super(); //Llamada al constructor de la clase Padre object 
+        //Imprimir imprimir = new Imprimir(); como típicamente se construye un objeto 
+        new Imprimir().imprimir(this); 
+        this.nombre = nombre; 
+        this.apellido = apellido;
+        System.out.println("Objeto persona usando this: " + this); 
+    }
+}
+class Imprimir {
+    public Imprimir() {
+        super(); //el constructor de la clase padre, para reservar memoria
+    }
+    public void imprimir(Persona persona) {
+        System.out.println("Persona desde la clase imprimir: " + persona);
+        System.out.println("Impresión del objeto actual (this): " + this);
+    }
+}
