@@ -2,7 +2,7 @@ package encapsulamiento;
 
 public class Persona {
     //Atributos 
-    private String nombre; 
+    private String nombre; //Cuando no contiene el modificador de acceso es default o package
     private double sueldo; 
     private boolean eliminado;
     //Constructor 
@@ -28,5 +28,11 @@ public class Persona {
     }
     public void setEliminado(boolean eliminado) {
         this.eliminado = eliminado;
+    }
+
+    public String toString() {
+        return "Persona [ nombre: " + this.nombre +
+        ", sueldo: " + this.sueldo +
+        ", eliminado: " + this.eliminado +"]";
     }
 }
