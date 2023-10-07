@@ -1,4 +1,5 @@
 package domain; 
+//Contexto estático 
 public class Persona {
         //Atributos
         private int idPersona; 

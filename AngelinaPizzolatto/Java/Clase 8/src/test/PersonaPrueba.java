@@ -1,6 +1,6 @@
 package test; 
 import domain.Persona; 
-
+//Contexto estático 
 public class PersonaPrueba {
     private int contador; 
     public static void main(String[] args) { //el método main es estático
