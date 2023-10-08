@@ -36,3 +36,28 @@ console.log(Persona)
 
 const sujeto1 = new Persona("Angelina","Pizzolatto") //creamos un objeto con la clase Persona
 console.log(sujeto1)
+
+//Tipo de dato undefined 
+var x; 
+console.log(x); 
+console.log(typeof x); 
+
+x = undefined; 
+console.log(typeof x); 
+
+// nul: significa que no tiene valor
+var y = null; //null no es un tipo de dato, pero su origen es de tipo object 
+console.log(y); 
+console.log(typeof y); //es un objeto
+
+//Tipo de dato array y Empty String
+//los arreglos son de tipo objeto
+var autos = ['Ford','Peugeot','BMW','Audi']; //contiene cualquier tipo de dato
+console.log(autos); 
+console.log(typeof autos);
+
+var z; 
+console.log(z); //es undefined
+
+var z = ""; 
+console.log(z);//es una string vacia
