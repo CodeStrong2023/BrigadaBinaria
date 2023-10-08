@@ -13,3 +13,19 @@ console.log(juntos);
 
 nombre += apellido; //Concatenación con el operador simplificado
 console.log(nombre);
+
+//Hoy en día ya no se utiliza var, se utilizan len y const
+let nombre2 = "Marti"; 
+console.log(nombre2);
+
+const apellido2 = "Riveros"; 
+console.log(apellido2); 
+
+let x,y; //Se pueden crear varias variables dentro de una misma línea 
+x = 17, y = 23; //Se pueden realizar varias asignaciones dentro de una misma línea
+let z = x + y; 
+console.log(z); 
+
+//No se pueden definir variables con un número al inicio, ni con una palabra reservada
+// len 24mono = 23; 
+// len break = mono; 
