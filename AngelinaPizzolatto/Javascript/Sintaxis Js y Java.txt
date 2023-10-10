@@ -1,0 +1,58 @@
+Sintaxis similares entre Java y JavaScript
+
+Operadores Simplificados o Compuestos/ también se consideran de asignación
++=
+-=
+*=
+/=
+%=
+**=
+
+Operadores Aritmeticos
++
+-
+*
+/
+% Residuo
+** Exponente
+
+Operadores de Asignación
+=
+
+Operadores de Comparación (boolean)
+== Revisa el valor sin importar el tipo de dato
+=== Triple para Javascript/ Revisa el valor y el tipo
+
+Documentar
+// = Para una línea de comentario
+/* */ = Para múltiples líneas de comentario
+
+Secuencias de Escape
+\'= Mostrar una comilla simple dentro de una cadena en la salida de información
+\"= Mostrar doble comilla dentro de una cadena en la salida de información
+\\ = Barra invertida, diagonal inversa, es para mostrar una back slash
+\n = Salto de línea
+\r = Retorno
+\t = Tabulación
+\b = Retroceso
+\f = Salto de página
+
+Operador de Aumento
+++
+Ejemplo: let z = ++a; //PreIncremento
+Ejemplo: z = a++; //PostIncremento
+
+Operador de Decremento
+--
+Ejemplo: let z = --a; //PreDecremento
+Ejemplo: z = a--; //PostDecremento
+
+Operador Distinto, Diferente (boolean)
+!= Comprueba valores sin revisar el tipo 
+!== Comprueba el valor y también el tipo 
+
+Operadores Relacionales (boolean)
+<
+>
+<=
+>=
