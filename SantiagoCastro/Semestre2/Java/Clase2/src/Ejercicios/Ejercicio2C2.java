@@ -1,3 +1,6 @@
+/*
+Ejerciocio 2: leer un numero e indicar si es positivo o negativo, el proceso se repetirá hasta que se introdizca un cero
+*/
 package Ejercicios;
 
 import java.util.Scanner;

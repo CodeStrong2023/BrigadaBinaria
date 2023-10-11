@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Ejercicio 1: Leer el numero y mostrar su cuadrado, repetir el proceso hasta que se introduzca un numero negativo
  */
 package Ejercicios;
 
