@@ -56,3 +56,7 @@ Operadores Relacionales (boolean)
 >
 <=
 >=
+Operadores lógicos 
+And -> && Doble aspersan
+Or -> || Sencillo asperso
+Not -> ! Negativo
