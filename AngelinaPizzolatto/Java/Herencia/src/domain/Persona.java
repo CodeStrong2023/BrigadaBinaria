@@ -10,7 +10,7 @@ public class Persona { //Clase padre de Empleado
     //los atributos de la clase
     public Persona() { //Constructor 1
     }
-
+    //A esto se lo denomina recarga de constructores, ya qeu se trata del mismo constructor con diferntes parámetros
     public Persona(String nombre){ //Constructor 2
         this.nombre = nombre;
     }
@@ -48,7 +48,7 @@ public class Persona { //Clase padre de Empleado
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder(); 
-        sb.append("Persona{inombre=}").append(nombre); 
+        sb.append("Persona{nombre=}").append(nombre); 
         sb.append(", genero=").append(genero);
         sb.append(", edad=").append(edad);
         sb.append(", direccion=").append(direccion);
