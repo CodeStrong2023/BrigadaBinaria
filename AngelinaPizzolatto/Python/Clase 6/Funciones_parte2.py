@@ -59,3 +59,42 @@ def listar_nombres(*nombres): #La cantidad de argumentos varía (normalmente se 
         
 listar_nombres("Lucas", "José","Claudia", "Rosa", "Marta") #argumentos
 listar_nombres("Marcos", "Romina", "Carlos", "Juan Cruz")
+
+def listarTerminos(**kwargs):
+    for llave, valor in kwargs.items():
+        print(f"{llave} : {valor}")
+        
+listarTerminos() #No recibe nada, solo va a mostrar
+listarTerminos(IDE = "Integrated Develoment Enviroment", PK = "Primary Key")
+listarTerminos(Nombre = "Angelina Jolie")
+
+def desplegarNombres(nombres): 
+    for nombre in nombres: 
+        print(nombre)
+nombres2 = ["Tito", "Pedro", "Carlos"]
+desplegarNombres(nombres2)
+desplegarNombres("MARTINA") 
+#desplegarNombres(100) si le pasamos un número nos tirará error ya que no es iterable
+desplegarNombres((10, 11)) #le pasamos una tupla
+desplegarNombres([22,55]) #le pasamos una lista 
+
+#Funciones Recursivas 
+def factorial(numero): 
+    if numero == 1: #Caso base
+        return 1 
+    else: 
+        return numero * factorial(numero - 1) #llamada recursiva
+    
+resultado1 = factorial(5) #código duro
+print(f"El factorial del número 5 es: {resultado1}")
+
+#TAREA: que el usuario ingrese el número para calculaar el factorial
+numeroFactorial = int(input("Ingrese un número entero: "))
+def factorialUsuario(numeroFactorial):
+    if numeroFactorial == 1:
+        return 1
+    else: 
+        return numeroFactorial *factorialUsuario(numeroFactorial -1)
+    
+resultado2 = factorialUsuario(numeroFactorial) #código duro
+print(f"El factorial del número {numeroFactorial} es: {resultado2}")
