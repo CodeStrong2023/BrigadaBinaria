@@ -30,4 +30,9 @@ public class Persona {
     public void setEliminado(boolean eliminado) {
         this.eliminado = eliminado;
     }
+    public String toString(){   // Convierte cada atributo en un cadena
+        return "Persona [Nombre: "+ this.nombre+
+                ", Sueldo: "+this.sueldo+
+                ", Booleano: "+this.eliminado+" ]";
+    }
 }
