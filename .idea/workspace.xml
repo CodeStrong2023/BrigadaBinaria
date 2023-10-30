@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e95ffc01-a14f-41d1-9acf-d054fc7e65d0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantiagoCastro/Semestre2/Python/Clase 1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantiagoCastro/Semestre2/Python/Clase 1/.idea/Semestre 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantiagoCastro/Semestre2/Python/Clase 1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantiagoCastro/Semestre2/Python/Clase 1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantiagoCastro/Semestre2/Python/Clase 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantiagoCastro/Semestre2/Python/Clase 1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantiagoCastro/Semestre2/Python/Clase 1/Clase1 Ejercicio1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantiagoCastro/Semestre2/Python/Clase 1/Clase1 Ejercicio2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantiagoCastro/Semestre2/Python/Clase 1/Clase1 Ejercicio3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantiagoCastro/Semestre2/Python/Clase 1/Clase1 Ejercicio4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantiagoCastro/Semestre2/Python/Clase 1/Pruebas.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2XDUzGWUHndmBoryhbevLYYOdOV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Hugo/BrigadaBinaria"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e95ffc01-a14f-41d1-9acf-d054fc7e65d0" name="Changes" comment="" />
+      <created>1698163405271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698163405271</updated>
+    </task>
+    <servers />
+  </component>
+</project>
