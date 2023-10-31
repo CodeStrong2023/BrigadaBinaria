@@ -1,0 +1,22 @@
+@startuml persona
+class Persona {
+  - nombre: String
+  - apellido: String
+  - edad: int
+}
+
+object persona1 <<instancia>> {
+  nombre = "Micaela"
+  apellido = "Roux"
+  edad = 18
+}
+
+object persona2 <<instancia>> {
+  nombre = "Candelaria"
+  apellido = "Roronoa"
+  edad = 32
+}
+persona1 --|> Persona
+persona2 --|> Persona
+
+@enduml
