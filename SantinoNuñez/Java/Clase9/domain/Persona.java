@@ -11,7 +11,10 @@ public class Persona {
     }
     public Persona(String nombre){ //Constructor 2
         this.nombre = nombre;
-    }
+    }   // Constructor 2
+
+    // Sobrecarga de constructores: coinciden en nombres como en el modificador public
+    // tenemos 2 o mas constructores en una misma clase
     public Persona(String nombre, char genero, int edad, String direccion) { //Constructor 3
         this.nombre = nombre;
         this.genero = genero;
