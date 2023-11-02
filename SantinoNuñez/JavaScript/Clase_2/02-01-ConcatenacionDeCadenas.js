@@ -13,3 +13,18 @@ console.log(juntos);
 
 nombre += apellido; // Concatenamos nombre con apellido, operador simplificado
 console.log(nombre);
+
+// Hoy no se usa var, se utilizar let y const
+let nombre2 = "Roberto";
+console.log(nombre2);
+
+const apellido2 = "Fernandez";
+// apellido2 = "Sainz";  Una const no se puede modificar
+console.log(apellido2);
+
+let x,y; // Se pueden declarar varias variables en una linea
+x = 34, y =25;
+let z = x+y;  //Se asigna el valor de la operacion  
+console.log(z);
+
+        // No se pueden utilizar numeros en el incio de un nombre de una variable ni palabras

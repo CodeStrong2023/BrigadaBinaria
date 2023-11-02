@@ -1,0 +1,63 @@
+Sintaxis similares entre java y javaScript
+operadores Simplificados/Compuestos
++=
+-=
+*=
+/=
+%=
+**=
+
+Operadores Aritmeticos
++
+-
+*
+/
+%    Residuo
+**   Exponente
+
+Operadores de Asignacion
+=
+Los operadores simplificados tambien asignan 
+
+Operadores de comparacion 
+==  Revisa el valor sin importar el tipo
+=== Revisa el valor y el tipo de dato 
+
+
+Documentar 
+// = para una linea
+/* */ = para multiples lineas
+
+Secuencia de Escape
+\' = mostrar una comilla simple dentro de una cadena en la salida de informacion 
+\" = mostrar dobles comillas
+\\ = para mostrar una back slash dentro de una cadena
+\n = salto de linea
+\r = retorno
+\t = tabulación
+\b = retroceso
+\f = salto de pagina
+
+Operador de Aumento
+++
+Ejemplo: Let z = ++a;    PreIncremento
+Ejemplo: Let z = a++;    PosIncremento
+
+Operador de Decremento
+--
+Ejemplo: Let z = --a;    PreDecrement
+Ejemplo: Let z = a--;    PosDcremento
+
+Operador Distinto
+!=  Comprueba el valor sin revisar el tipo
+!==   Comprueba el valor y el tipo
+
+Operadores Relacionales
+<
+>
+<=
+>=
+
+Operadores Lógicos 
+And  -> && Doble aspersan
+Or   -> 
