@@ -5,7 +5,7 @@ package EjerciciosArreglos;
 
 import java.util.Scanner;
 
-public class Ejercicio2C10 {
+public class Ejercicio2C11 {
     public static void main(String[] args) {
         //Clase Scanner
         Scanner entrada = new Scanner(System.in);

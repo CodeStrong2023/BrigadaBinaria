@@ -6,7 +6,7 @@ package EjerciciosArreglos;
 
 import java.util.Scanner;
 
-public class Ejercicio3C10 {
+public class Ejercicio3C11 {
     public static void main(String[] args) {
         //Creamos clase scanner
         Scanner entrada = new Scanner(System.in);
