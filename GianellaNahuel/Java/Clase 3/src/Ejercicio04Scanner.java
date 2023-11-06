@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Ejercicio04Scanner {
 /*
-Ejercicio: Pedir números hasta que se teclee uno negativo 
+Ejercicio04: Pedir números hasta que se teclee uno negativo 
 y mostrar cuantos números se han introducido
 Con la clase Scanner
  */
