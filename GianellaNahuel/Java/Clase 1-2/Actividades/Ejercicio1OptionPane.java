@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 public class Ejercicio1OptionPane {
     /*
     Ejercicio 1: Leer un número y mostrar su cuadrado,
-    repeitr el proceso hasta que se introduzca un número negativo
+    repetir el proceso hasta que se introduzca un número negativo
     */
     public static void main(String[] args) {
         //mismo ejercicio sin clase Scanner 
