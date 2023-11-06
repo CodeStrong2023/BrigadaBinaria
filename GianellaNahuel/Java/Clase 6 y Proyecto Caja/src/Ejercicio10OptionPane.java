@@ -8,9 +8,9 @@ public class Ejercicio10{
         acumulador = 0; 
         JOptionPane.showMessageDialog(null,"Digite 10 números");
         for (i=1;i<=10;i++) {
-           num = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite un número: ")); 
-            acumulador= acumulador + num; 
+           numero = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite un número: ")); 
+           suma= suma + numero; 
         }
-        JOptionPane.showMessageDialog(null, "La suma de todos los números es: " + acumulador);
+        JOptionPane.showMessageDialog(null, "La suma de todos los números es: " + suma);
     }
 }
