@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 
 public class Ejercicio05OptionPane {
 /*
-Ejercicio 5: Realizar un juego para adivinar un número,
+Ejercicio05: Realizar un juego para adivinar un número,
 para ello generar un número aleatorio entre 0-100,
 y luego ir pidiendo números indicando "es mayor" o
 "es menor" según respecta a N 
