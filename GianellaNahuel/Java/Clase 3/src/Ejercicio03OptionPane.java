@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 
 public class Ejercicio03OptionPane {
 /*
-    Leer números hasta que se introduzca un cero
+    Ejercicio03:Leer números hasta que se introduzca un cero
     Para cada uno indicar si es par o impar
     Con clase JOptionPane     
 */ 
