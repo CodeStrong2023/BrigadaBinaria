@@ -17,10 +17,8 @@ public class Aritmetica {
     }
     
     public int sumarConArgumentos(int arg1, int arg2){
-        // this es opcional, este operador se elimina
-        this.a = arg1;    // El argumento a se asigna al atributo this.a
+        this.a = arg1;    
         this.b = arg2;
-        //return a+b;
         return this.sumarConRetorno();
     }
 }
