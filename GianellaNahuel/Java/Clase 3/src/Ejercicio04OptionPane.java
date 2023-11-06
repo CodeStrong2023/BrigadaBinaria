@@ -1,4 +1,3 @@
-
 import javax.swing.JOptionPane;
 
 public class Ejercicio04OptionPane {
