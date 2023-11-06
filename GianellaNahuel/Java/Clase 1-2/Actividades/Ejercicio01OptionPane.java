@@ -1,7 +1,7 @@
-package Actividades; 
+package Ejercicios; 
 import javax.swing.JOptionPane;
 
-public class Ejercicio1OptionPane {
+public class Ejercicio01OptionPane {
     /*
     Ejercicio 1: Leer un número y mostrar su cuadrado,
     repetir el proceso hasta que se introduzca un número negativo
@@ -10,7 +10,7 @@ public class Ejercicio1OptionPane {
         //mismo ejercicio sin clase Scanner 
         int num; 
         do {
-            num = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un número ")); 
+            num = Integer.parseInt(JOptionPane.showInputDialog("Digite un número ")); 
             if (num>0){
             var resultado = (int)Math.pow(num,2); 
             System.out.println("El resultado de " + num + " elevado al cuadrado es " + resultado);}
