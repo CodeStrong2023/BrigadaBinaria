@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Ejercicio03Scanner {
 /*
-Leer números hasta que se introduzca un cero
+Ejercicio03:Leer números hasta que se introduzca un cero
 Para cada uno indicar si es par o impar
 Con clase Scanner      
 */
