@@ -1,7 +1,7 @@
-package Actividades; 
+package Ejercicios; 
 import java.util.Scanner;
 
-public class Ejercicio1Scanner {
+public class Ejercicio01Scanner {
     /*
     Ejercicio 1: Leer un número y mostrar su cuadrado,
     repetir el proceso hasta que se introduzca un número negativo
@@ -10,7 +10,7 @@ public class Ejercicio1Scanner {
         Scanner numeros = new Scanner(System.in);  
         int num; 
         do {
-            System.out.println("Ingrese un número para calcular su cuadrado: ");
+            System.out.println("Digite un número para calcular su cuadrado: ");
             num = numeros.nextInt(); 
             if (num>0){
             var resultado = (int)Math.pow(num,2); 
