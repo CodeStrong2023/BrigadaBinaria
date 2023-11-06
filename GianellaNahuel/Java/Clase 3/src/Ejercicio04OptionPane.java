@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 
 public class Ejercicio04OptionPane {
 /*
-Ejercicio: Pedir números hasta que se teclee uno negativo 
+Ejercicio04: Pedir números hasta que se teclee uno negativo 
 y mostrar cuantos números se han introducido
 Con la clase Scanner
  */
