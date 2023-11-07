@@ -1,13 +1,7 @@
-package test;
-// import ar.com.codesystem
-// import ar.com.codesystem.Utileria;
-
-public class TestUtileria {
+public class TestFinal {
     public static void main(String[] args) {
-    //    Utileria.imprimir("saludos a todos");
-    //    imprimir("saludos a todos");
-        ar.com.codesystem.Utileria.imprimir("llamamos al paquete a la clase ");
+        final int miDni = 46061882;
+        System.out.println("miDni = " + miDni);
+        // miDni = 46567891;  no se puede modificar
     }
 }
-
-
