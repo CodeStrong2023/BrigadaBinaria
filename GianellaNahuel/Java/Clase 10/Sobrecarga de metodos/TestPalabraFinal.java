@@ -1,4 +1,4 @@
-public class TestFinal {
+public class TestPalabraFinal {
     public static void main(String[] args) {
         final int miDni = 46061882;
         System.out.println("miDni = " + miDni);
