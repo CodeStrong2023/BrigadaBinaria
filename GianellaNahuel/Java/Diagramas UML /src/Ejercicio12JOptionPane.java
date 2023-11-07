@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
  */
 public class Ejercicio12JOptionPane {
     public static void main(String[] args) {
-        int numero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un número para obtener su factorial")); 
+        int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite un número para obtener su factorial")); 
         int i = 1, fact = 1; 
         while (i<=numero) {
             fact = fact *i;
