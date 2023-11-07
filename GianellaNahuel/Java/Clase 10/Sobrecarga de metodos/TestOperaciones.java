@@ -1,7 +1,6 @@
 package test;
 
-import Operaciones.Operaciones;
-
+import Operaciones;
 public class TestOperaciones {
     public static void main(String[] args) {
         var resultado = Operaciones.sumar(54, 87);
