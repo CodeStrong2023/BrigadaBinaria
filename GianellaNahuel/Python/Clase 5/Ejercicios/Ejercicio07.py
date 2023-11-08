@@ -1,9 +1,10 @@
-#Ejercicio 7: juego adivina el número
-#Realizar un juego para adivinar un número. Para ello se debe
-# generar un número aleatorio entre 1-100, y luego ir pidiendo números indicando
-#Si es mayor o menor según el número aleatorio.
-#El proceso termina cuando el usuario acierta y allí se debe mostrar el número de intentos.
-"""
+'''
+Ejercicio 7: juego adivina el número
+Realizar un juego para adivinar un número. Para ello se debe
+ generar un número aleatorio entre 1-100, y luego ir pidiendo números indicando
+Si es mayor o menor según el número aleatorio.
+El proceso termina cuando el usuario acierta y allí se debe mostrar el número de intentos.
+'''
 import random
 
 aleatorio = random.randint(0,100)
