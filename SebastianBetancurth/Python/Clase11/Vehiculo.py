@@ -17,7 +17,6 @@ class Vehiculo:
 
     Crear un objeto de cada clase.
     """
-
     def __init__(self, color, ruedas):
         self.color = color
         self.ruedas = ruedas
