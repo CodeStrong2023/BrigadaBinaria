@@ -1,0 +1,43 @@
+@startuml Disenio
+
+class Orden {
+    - idOrden: int
+    - producto[]: Producto
+    - contadorOrdenes: int 
+    - MAX_PRODUCTOS: int = 10
+
+    + Orden(): String
+    + agregarProducto(producto: Producto): void
+    + calcularTotal(): double
+    + mostrarOrden(): void
+
+    Responsabilidades 
+    - Crear objetos Orden
+    - Administrar los productos 
+}
+class Producto {
+    - idProducto: int
+    - nombre: String
+    - precio: double
+    - contadorProductos: String
+
+    - Producto()
+    + Producto(nombre:String, precio:double)
+    + getIdProducto(): int
+    + getNombre(): Strng
+    + setNombre(nombre:String): void
+    + getPrecio(): double
+    + setPrecio(precio:double): void
+    + toString(): String
+    
+    Responsabilidades 
+    - Crear objetos del tipo producto 
+}
+class TestVentas {
+    + main(args: String[]): void
+    Responsabilidades 
+    - Ejecutar la prueba de la aplicación de ventas
+}
+Orden <|-- Producto
+Orden --> TestVentas
+@enduml
