@@ -1,0 +1,25 @@
+@startuml Transporte
+
+class Vehiculo {
+  - color: String
+  - ruedas: int
+  + __init__(color: String, ruedas: int)
+  + __str__(): String
+}
+
+class Auto {
+  - velocidad: int
+  + __init__(color: String, ruedas: int, velocidad: int)
+  + __str__(): String
+}
+
+class Bicicleta {
+  - tipo: String
+  + __init__(color: String, ruedas: int, tipo: String)
+  + __str__(): String
+}
+
+Vehiculo --|> Auto
+Vehiculo --|> Bicicleta
+
+@enduml

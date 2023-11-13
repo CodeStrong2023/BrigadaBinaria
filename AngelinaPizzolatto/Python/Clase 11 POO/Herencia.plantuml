@@ -1,0 +1,18 @@
+@startuml Herencia
+
+class Object {
+}
+
+class Persona {
+    - nombre: String
+    - edad: int
+}
+
+class Empleado {
+    - sueldo: double
+}
+
+Object <|-- Persona
+Persona <|-- Empleado
+
+@enduml
